@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>PROGRAMACION MOVIL</item>
+        <item>PROGRAMACION WEB</item>
+        <item>ECUACIONES DIFERENCIALES</item>
+        <item>CALCULO INTEGRAL</item>
+    </string-array>
+
+
+</resources>

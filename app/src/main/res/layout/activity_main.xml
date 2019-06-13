@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/buttonMate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="matemáticas" />
+
+    <Button
+        android:id="@+id/buttonWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="programación web" />
+
+    <Button
+        android:id="@+id/buttonMovil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="programación movil" />
+
+    <Button
+        android:id="@+id/buttonHard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mantenimiento de Hardware" />
+
+</LinearLayout>
